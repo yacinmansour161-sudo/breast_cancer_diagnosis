@@ -1,0 +1,57 @@
+Experiment Date: 2026-05-26
+
+Model: Logistic Regression 
+Accuracy: 0.9735 
+Precision: 0.9730 
+Recall: 0.9474 
+F1 Score: 0.9600 
+Confusion Matrix: [[36 1] [ 2 74]] 
+---------------------------- 
+Model: KNN 
+Accuracy: 0.9558 
+Precision: 0.9535 
+Recall: 0.9318 
+F1 Score: 0.9425 
+Confusion Matrix: [[41 2] [ 3 67]] 
+----------------------------
+Model: Decision Tree 
+Accuracy: 0.9381 
+Precision: 0.8605 
+Recall: 0.9737 
+F1 Score: 0.9136 
+Confusion Matrix: [[37 6] [ 1 69]]
+----------------------------
+Observations:
+- Logistic Regression performed best
+- Decision Tree showed instability at first but then got much better
+============================
+Experiment Date: 2026-05-26 17:38:58.199498
+============================
+
+Model: Logistic Regression
+Accuracy: 0.9735
+Precision: 1.0000
+Recall: 0.9167
+F1 Score: 0.9565
+Confusion Matrix:
+[[33  0]
+ [ 3 77]]
+----------------------------
+Model: KNN
+Accuracy: 0.9646
+Precision: 1.0000
+Recall: 0.8889
+F1 Score: 0.9412
+Confusion Matrix:
+[[32  0]
+ [ 4 77]]
+----------------------------
+Model: Decision Tree
+Accuracy: 0.9115
+Precision: 0.8421
+Recall: 0.8889
+F1 Score: 0.8649
+Confusion Matrix:
+[[32  6]
+ [ 4 71]]
+----------------------------
